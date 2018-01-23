@@ -1,0 +1,34 @@
+{
+  "name": "rabbitop",
+  "version": "0.0.1",
+  "description": "A mini-admin tool for managing RabbitMQ topology",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha --timeout 120000 test/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ujc/rabbitop.git"
+  },
+  "keywords": [
+    "rabbit",
+    "rabbitmq",
+    "amqp",
+    "queues",
+    "exchanges"
+  ],
+  "author": "Uri Chandler",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ujc/rabbitop/issues"
+  },
+  "homepage": "https://github.com/ujc/rabbitop#readme",
+  "dependencies": {
+    "axios": "^0.17.1"
+  },
+  "devDependencies": {
+    "amqplib": "^0.5.2",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
+  }
+}
